@@ -1,5 +1,8 @@
 # palindrome
 
+## Description
+A simple application designed to search for palindromes in a text string.
+
 ## Project setup
 ```
 yarn install
