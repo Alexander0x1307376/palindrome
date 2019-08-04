@@ -1,11 +1,9 @@
 module.exports = {
     devServer: {
-        proxy: 'http://palindrome.loc:80'
+        proxy: 'http://localhost:3000'
     },
-    // publicPath: '/dist',
     publicPath: process.env.NODE_ENV === 'production'
         ? '/dist/'
         : '/',
     indexPath: 'palindromeapp.html'
-
 };

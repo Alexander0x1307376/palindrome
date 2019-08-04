@@ -3,6 +3,9 @@
 ## Description
 A simple application designed to search for palindromes in a text string.
 
+## Requirements
+Make sure you have the mbstring extension enabled in your php.
+
 ## Project setup
 ```
 yarn install
