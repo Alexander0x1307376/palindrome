@@ -17,6 +17,7 @@ class PalindromeSearch
      */
     public static function getPalindroms($string)
     {
+        $string = mb_strtolower($string);
         $charArray = preg_split('//u', $string, null, PREG_SPLIT_NO_EMPTY); //разбиваем строку на символы
 
         // получаем данные о палиндромах
